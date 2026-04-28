@@ -22,6 +22,7 @@
 # MAGIC          Click on Commit changes
 # MAGIC
 # MAGIC          If teh folder/file already exists then it will be replaced but you can delete it as it's mentioned in 4 Deleting....
+# MAGIC          Download the "data" file from the volume(DataBricks) and upload it separately to spark_programmingHBL in GitHub  
 # MAGIC
 # MAGIC
 # MAGIC 3 Delete repository
