@@ -1,0 +1,57 @@
+
+
+1 Understanding Big Data and Distributted Data Processing
+
+1.1 INTRODUCTION TO COURSE
+
+Hadoop 
+Is a way to distribute very large files across multiple machines. It uses Hadoop Distributed File System(HDFS).
+HDFS allows a user to work with large data sets
+HDFS uses MapReduce, which allows computations on that distributed data.
+MapReduce is a way of splitting a computation task to a distributed set of files(such as HDFS)
+
+So we use:
+-HDFS to distribute large data sets
+-MapReduce to distribute a computational task to a distributed data set.
+
+Spark vs MapReduce
+-MapReduce requires files to be stored in HDFS, Spark DOES NOT
+-Spark can perform up to 100x faster than MapReduce
+-Spark can spill over to disk if the memory is filled
+-At the core of Spark is Resilient Distributed Dataset(RDD)
+-RDD has 4 main features:
+ *Distributed Collection of Data
+ *Fault-tolerant
+ *Parallel operation-partitioned
+ *Ability to use many data sources
+-RDDs are immutable
+-Two types: 
+  Transformations: Are the recipe to follow
+  Actions:         Perform what the recipe says to do and return sth. back.
+
+RDD vs Dataframe
+-Spark 2.0 moved from RDD to Dataframes
+-Spark dataframe documentation
+ *
+ 
+
+
+
+1.2 SETTING UP PYTHON WITH SPARK
+-Realistically Spark wont' be running on a single machine, it will run on a cluster(a group of machines) on a service , like AWS.
+-Databricks is a company founded by the creator of Spark. It provides clusters that run on top of AWS and has Notebook System already set up.
+-It has a free community version that supports a 6 GB cluster. 
+-It also has its own storage format known as DBFS.
+ 
+ Go to: https://databricks.com/try-databricks
+ Login with email, you'll get sent a verification code.  29@
+ or use the P. DB_hbl432025
+
+
+
+2 Introduction to Apache Spark
+2.1....
+  Cluster is a group of computers working together
+
+2.2  Architecture:
+   Spark connect 
